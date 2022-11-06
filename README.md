@@ -6,7 +6,7 @@ The minimum you need to get Node running in a container using Amazon's image.
 
 [Containers currently have about 10gb space to use,](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html) whereas zip functions have about 250mb. So for many interesting use cases you will need to use a container.
 
-This template exists because it is actually fairly hard to find pre-made lambda containers that work. Many lambda container images on GitHub don't work, including starter kits and templates. My theory is the other containers don't work because they don't use Amazon's image and so no longer implement the latest runtime interface.
+This template exists because it is actually fairly hard to find pre-made lambda containers that work. Many lambda container images on GitHub don't work, including starter kits and templates. The other containers don't work because they don't use Amazon's image and so no longer implement the latest runtime interface.
 
 
 ## Setup
